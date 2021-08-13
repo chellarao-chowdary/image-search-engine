@@ -19,10 +19,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Screenshots
 
-![App Screenshot](https://github.com/chellarao-chowdary/Image-Search/tree/main/Screenshots/Homepage.png)
+![App Screenshot](https://github.com/chellarao-chowdary/image-search-engine/blob/master/Screenshots/Homepage.png)
 
 
-![App Screenshot2](https://github.com/chellarao-chowdary/Image-Search/tree/main/Screenshots/Cars.png)
+![App Screenshot2](https://github.com/chellarao-chowdary/image-search-engine/blob/master/Screenshots/Cars.png)
 
 ## Run Locally
 
@@ -30,13 +30,13 @@ Clone down this repository. You will need node and npm installed globally on you
 
 
 ```bash
-  git clone https://github.com/chellarao-chowdary/Image-Search.git
+  git clone https://github.com/chellarao-chowdary/image-search-engine.git
 ```
 
 Go to the project directory
 
 ```bash
-  cd Image-Search
+  cd image-search-engine
 ```
 
 Install dependencies
