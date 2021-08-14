@@ -1,21 +1,14 @@
 import React from 'react';
 
-const NoResults = () => {
+const NoResults = ({text}) => {
 	return (
-		<div className="is-flex is-justify-content-center">
+		<div className="is-flex is-justify-content-center tc mt-6">
 			<div className="column is-half notification is-info">
-				<button className="delete"></button>
-				No results found.
+				{/*<button className="delete" onClick={onCross}></button>*/}
+				{text}
 			</div>
 		</div>
 	)
 }
 
-const InvalidKeyword = ({onCross}) => {
-	return (
-		<div className="notification is-danger">
-			<button className="delete" onClick={onCross}>
-			</button>Please Enter a Valid Keyword</div>
-	)
-}
-export {NoResults,InvalidKeyword};
+export default NoResults;
